@@ -3,7 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "27419615"))
   API_HASH = os.environ.get("API_HASH", "2f4b181296f0a2615a85471a1c72df44")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "8106002966:AAEVDgx0sa-tSUP25xUr9myq8zwcz4RFtUk")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "PediaDrivexRobot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002498165944"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
